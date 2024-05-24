@@ -24,7 +24,7 @@ Shares-based work allocation with miner-like periodic stat output:
 
 Optional monitoring UI:
 
-https://github.com/kobradag/kobrad-stratum-bridge/blob/main/monitoring-setup.md
+https://github.com/K0DA-a/kobrad-stratum-bridge/blob/main/monitoring-setup.md
 
 ![image](https://user-images.githubusercontent.com/59971111/192025446-f20d74a5-f9e0-4290-b98b-9f56af8f23b4.png)
 
@@ -78,12 +78,12 @@ Most of the stats on the graph are averaged over an hour time period, so keep in
 
 Note: This does not require pulling down the repo, it only requires that docker is installed.
 
-`docker run -p 5555:5555 kobradag/kobrad-stratum-bridge:latest --log=false` will run the bridge with default settings. This assumes a local pyrin node with default port settings and exposes port 5555 to incoming stratum connections.
+`docker run -p 5555:5555 K0DA-a/kobrad-stratum-bridge:latest --log=false` will run the bridge with default settings. This assumes a local pyrin node with default port settings and exposes port 5555 to incoming stratum connections.
 
 
 Detailed:
 
-`docker run -p {stratum_port}:5555 kobradag/kobrad-stratum-bridge  --log=false --kobra={kobra_address} --stats={false}` will run the bridge targeting a kobra node at {kobra_address}. stratum port accepting connections on {stratum_port}, and only logging connection activity, found blocks, and errors
+`docker run -p {stratum_port}:5555 K0DA-a/kobrad-stratum-bridge  --log=false --kobra={kobra_address} --stats={false}` will run the bridge targeting a kobra node at {kobra_address}. stratum port accepting connections on {stratum_port}, and only logging connection activity, found blocks, and errors
 
   
 
