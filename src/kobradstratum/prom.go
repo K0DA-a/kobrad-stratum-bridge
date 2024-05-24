@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/kobradag/kobrad-stratum-bride/src/gostratum"
+	"github.com/K0DA-a/kobrad-stratum-bridge/src/gostratum"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
