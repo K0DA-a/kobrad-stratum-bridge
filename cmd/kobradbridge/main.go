@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/kobradag/kobrad-stratum-bride/src/kobradstratum"
+	"github.com/kobrad-stratum-bridge/src/kobradstratum"
 	"io/ioutil"
 	"log"
 	"os"
