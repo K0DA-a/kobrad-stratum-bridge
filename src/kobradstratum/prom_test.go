@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/kobradag/kobrad-stratum-bride/src/gostratum"
+	"github.com/K0DA-a/kobrad-stratum-bridge/src/gostratum"
 )
 
 func TestPromValid(t *testing.T) {
