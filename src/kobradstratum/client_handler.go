@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"K0DA-a/kobrad-stratum-bridge/src/gostratum"
+	"github.com/K0DA-a/kobrad-stratum-bridge/src/gostratum"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )
