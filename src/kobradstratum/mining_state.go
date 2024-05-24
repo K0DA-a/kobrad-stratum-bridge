@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/kobradag/kobrad-stratum-bride/src/gostratum"
+	"github.com/K0DA-a/kobrad-stratum-bridge/src/gostratum"
 )
 
 const maxjobs = 32
