@@ -14,7 +14,7 @@ import (
 	"github.com/Pyrinpyi/pyipad/domain/consensus/utils/consensushashing"
 	"github.com/Pyrinpyi/pyipad/domain/consensus/utils/pow"
 	"github.com/Pyrinpyi/pyipad/infrastructure/network/rpcclient"
-	"github.com/kobradag/kobrad-stratum-bride/src/gostratum"
+	"github.com/K0DA-a/kobrad-stratum-bridge/src/gostratum"
 	"github.com/pkg/errors"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
