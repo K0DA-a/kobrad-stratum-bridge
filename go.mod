@@ -1,4 +1,4 @@
-module github.com/kobradag/kobrad-stratum-bride
+module github.com/K0DA-a/kobrad-stratum-bridge
 
 go 1.18
 
